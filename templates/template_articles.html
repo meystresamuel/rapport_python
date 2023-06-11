@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Articles du Bon Sportif</title>
+</head>
+<body>
+    <h1>Le Bon Sportif</h1>
+    <h2>Articles:</h2>
+    <p>Notre magasin Le Bon Sportif possède les articles suivants:</p>
+    <!-- Commentaire -->
+    {% for article in articles %}
+    <li>
+        {{article.name}}:
+        <ul>
+        {% for variant in article.variants %}
+            <li>{{variant.name}} - ({{variant.price}})</li>
+        {%- endfor %}
+        </ul>
+    </li>
+    {%- endfor %} 
+
+</body>
+</html>
