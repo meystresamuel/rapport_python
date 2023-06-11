@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://127.0.0.1:8888/notebooks/meystre_rapport_python.ipynb
+HostUrl=http://127.0.0.1:8888/nbconvert/pdf/meystre_rapport_python.ipynb?download=true
